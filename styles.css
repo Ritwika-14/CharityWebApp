@@ -1,0 +1,134 @@
+/* Reset some default styles */
+body{
+  background-color: rgb(234, 205, 167);
+}
+
+
+html, ul, li {
+    margin: 10px;
+    padding: 5px;
+    font-size: 15px;
+    }
+
+nav ul{
+    display: flex;
+    align-items: center;
+    height: 69px;
+    background-color: black;
+    color: bisque;
+    }
+
+/* nav ul li{
+    padding: 0;
+    row-gap: 25px;
+} */
+ul li:hover {
+    color: rgba(0, 255, 255, 0.768);
+    font-size: large;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    max-width: fit-content;
+    pointer-events: stroke;
+    cursor: pointer;
+}
+
+  /* Global styles */
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    align-items: center;
+  }
+  
+  /* Header styles */
+  header {
+    background-color: #92292994;
+    background-position: 0cap;
+    color: #cad4df
+    row-gap 35px;
+    text-align: center;
+    display: flexbox;
+    
+  }
+  
+  .logo {
+    font-size: 50px;
+    text-align: center;
+    text-decoration: double;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    row-gap: 30px;
+}
+
+  .container1 {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    align-items: center;
+    text-decoration: dotted;
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+
+  .container2 {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+    font-style: italic;
+  }
+  
+   .menu {
+    list-style: none;
+  }
+  
+  .menu li {
+    text-align: center;
+    margin-right: 20px;
+  }
+  
+  .menu li a {
+    color: #fff;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    row-gap: 20px;
+  } 
+  
+  /* Hero section styles */
+  .hero {
+    background-size: cover;
+    background-position: center;
+    color: #132850;
+    padding: 200px 0;
+    text-align: center;
+    font-size: larger;
+  }
+  
+  /* Application form styles */
+  .application {
+    padding:  0px;
+  }
+  
+  form label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  form input,
+  form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  form button {
+    padding: 10px 20px;
+  }
+  
+  /* Footer styles */
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  
